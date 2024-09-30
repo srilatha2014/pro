@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.logo{
+    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    padding-left: 30px;
+    
+    width: 200px;
+    padding-top: 30px;
+
+}
+.navbar{
+    z-index: 1;
+    overflow: hidden;
+    
+}
+.navbar a{
+    text-decoration:none;
+    text-align: center;
+    color:black;
+    height:30px;
+    width:auto;
+    margin: auto;
+
+}
+
+    .navbar a:hover{
+      background-color:black;
+      color: white;
+    }
+
+.search{
+    width: 330px;
+    float:right;
+    margin-right: 25px;
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid black;
+}
